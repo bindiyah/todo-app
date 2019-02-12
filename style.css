@@ -15,7 +15,7 @@ padding:16px;
     font-size: 24px;
     margin: 0;
 }
-.tasks {
+.task {
   border-radius: 4px;
   background-color: #ffffff;
   border: 1px solid #e6e6e6;
@@ -28,7 +28,7 @@ padding:16px;
   margin-bottom: 24px;
   position: relative;
 }
-.tasks p {
+.task p {
     margin: 0;
 }
 /* Customize the label (the container) */
@@ -84,6 +84,7 @@ padding:16px;
         font-size: 35px;
         color: white;
         padding-bottom: 5px;
+        bottom: 30px;
   }
   @media only screen and (min-width:600px){
     .header {
@@ -104,6 +105,14 @@ padding:16px;
         font-size: 45px;
         padding-bottom: 10px;
         font-weight: 300;
+        bottom: 100px;
+        right: 70px;
       }
+      .tasks-container {
+          display: grid;
+          grid-template-columns: repeat(4, 25%);
+          grid-column-gap: 24px;
+      }
+
 
   }
