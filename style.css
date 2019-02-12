@@ -1,0 +1,76 @@
+body {
+    background-color: #f6f6f6;
+margin: 0;
+padding:16px;
+}
+.header {
+    margin-top:16px;
+    margin-bottom: 8px;
+    font-family: PTSerif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.tasks {
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  padding: 30px 83px 46px 34px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #333333;
+}
+.tasks p {
+    margin: 0;
+}
+/* Customize the label (the container) */
+.checkbox-main {
+    display: block;
+    position: absolute;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    right: 20px;
+    width: 13.9px;
+    height: 10.7px;
+  }
+
+  /* Hide the browser's default checkbox */
+  .checkbox-main input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #d7d7d7;
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-image: url("tick.svg");
+    background-repeat: no-repeat;
+
+  }
+  .checkbox-main input:checked ~ .checkmark {
+    background-color: #4fd0b9;
+    background-image: url("tickactive.svg");
+  }
