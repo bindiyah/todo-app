@@ -25,6 +25,7 @@ padding:16px;
   font-weight: bold;
   line-height: 1.2;
   color: #333333;
+  margin-bottom: 24px;
 }
 .tasks p {
     margin: 0;
@@ -73,4 +74,15 @@ padding:16px;
   .checkbox-main input:checked ~ .checkmark {
     background-color: #4fd0b9;
     background-image: url("tickactive.svg");
+  }
+  .addtask {
+        width: 48px;
+        height: 48px;
+        background-color: #ff6666;
+        border-radius: 50%;
+        position: fixed;
+        right: 16px;
+        font-size: 35px;
+        color: white;
+        padding-bottom: 5px;
   }
