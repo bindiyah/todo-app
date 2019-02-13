@@ -11,6 +11,5 @@ function addTask() {
         </label>
     </div>`;
         res.appendChild(resChild);
-
       }
 }

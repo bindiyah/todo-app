@@ -1,7 +1,7 @@
 body {
     background-color: #f6f6f6;
-margin: 0;
-padding:16px;
+    margin: 0;
+    padding:16px;
 }
 .header {
     margin-top:16px;
@@ -96,8 +96,8 @@ padding:16px;
         margin: auto;
       }
       .task {
-           line-height: 2;
-           font-size: 24px;
+          line-height: 2;
+          font-size: 24px;
       }
       .addtask {
         width: 64px;
