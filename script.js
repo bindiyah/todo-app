@@ -41,20 +41,3 @@ function showDone() {
     }
 addTodo();
 showDone();
-
-
-
-
-
-
-
-        /*resChild.innerHTML = `<div class="task">
-        <p>${message}</p>
-        <label class="checkbox-main">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-        </label>
-    </div>`;
-        res.appendChild(resChild);
-      }
-}*/
