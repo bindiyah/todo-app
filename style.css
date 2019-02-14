@@ -39,10 +39,6 @@ body {
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     right: 12px;
   }
 
@@ -54,7 +50,6 @@ body {
     height: 0;
     width: 0;
   }
-
   /* Create a custom checkbox */
   .checkmark {
     position: absolute;
@@ -68,7 +63,6 @@ body {
     background-position: center;
     background-image: url("tick.svg");
     background-repeat: no-repeat;
-
   }
   .checkbox-main input:checked ~ .checkmark {
     background-color: #4fd0b9;
@@ -113,6 +107,7 @@ body {
           grid-template-columns: repeat(4, 25%);
           grid-column-gap: 24px;
       }
-
-
+      .task p {
+        width: 221px;
+      }
   }
